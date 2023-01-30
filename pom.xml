@@ -13,7 +13,9 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://localhost:9001/</sonar.host.url>
+	 	<sonar.host.url>http://54.234.239.208:9000/</sonar.host.url>
+	         <sonar.login>admin</sonar.login>
+		<sonar.password>admin123</sonar.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -81,12 +83,12 @@
         <repository>
           <id>nexus</id>
           <name>KC Tech Releases Nexus Repository</name>
-          <url>http://52.91.88.226:8081/repository/kctech-release/</url>
+          <url>http://54.87.198.25:8081/repository/tesla_jen/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
           <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://52.91.88.226:8081/repository/kctech-snapshot/</url>
+           <url>http://54.87.198.25:8081/repository/tesla_jen2/</url>
         </snapshotRepository>
    </distributionManagement>
 	
